@@ -46,8 +46,8 @@
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
-      "default",
-      "modern"
+      "statictoc",
+	  "templates/kiloath"
     ],
     "postProcessors": [],
     "keepFileLink": false,
