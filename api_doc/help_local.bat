@@ -1,3 +1,3 @@
 rmdir /S /Q obj
-docfx docfx_local.json
+docfx build docfx_local.json
 start _site\index.html
