@@ -3,5 +3,5 @@
 # {1!} 使用方法
 * 下載範本
   ```
-  git clone --depth=1 --branch=main https://kiloath@github.com/kiloath/ApiDoc.git
+  git clone --depth=1 --branch=main https://github.com/kiloath/ApiDoc.git
   ```
