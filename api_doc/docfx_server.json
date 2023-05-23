@@ -4,8 +4,9 @@
       "src": [
         {
           "files": [
-            "bin/**/*.dll"
-          ]
+            "net7/**/*.csproj"
+          ],
+          "src": "../"
         }
       ],
       "dest": "api",
