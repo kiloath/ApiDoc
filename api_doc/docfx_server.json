@@ -29,6 +29,12 @@
       },
       {
         "files": [
+          "RustApi/toc.yml",
+          "RustApi/index.md"
+        ]
+      },
+      {
+        "files": [
           "articles/**.md",
           "articles/**/toc.yml",
           "toc.yml",
@@ -39,7 +45,8 @@
     "resource": [
       {
         "files": [
-          "images/**"
+          "**/images/**",
+		  "rustdoc/doc/**"
         ]
       }
     ],

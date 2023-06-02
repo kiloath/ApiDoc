@@ -1,5 +1,8 @@
 - name: Articles
   href: articles/
-- name: Api Documentation
+- name: Rust API
+  href: RustApi/
+  homepage: RustApi/index.md
+- name: CSharp API
   href: api/
   homepage: api/index.md
