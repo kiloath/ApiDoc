@@ -1,5 +1,6 @@
 ---
 _disableToc: true
+_layout: landing
 ---
 <div class="containter">
   <div class="iframe-wrapper">
