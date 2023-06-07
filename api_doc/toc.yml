@@ -1,5 +1,7 @@
 - name: Articles
   href: articles/
+- name: Tasks
+  href: tasks/
 - name: Rust API
   href: RustApi/
   homepage: RustApi/index.md

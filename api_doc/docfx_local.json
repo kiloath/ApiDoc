@@ -40,14 +40,26 @@
           "toc.yml",
           "*.md"
         ]
+      },
+	  {
+        "files": [
+          "tasks/**.md",
+          "tasks/**/toc.yml",
+          "toc.yml",
+          "*.md"
+        ]
       }
     ],
     "resource": [
       {
         "files": [
           "**/images/**",
-          "rustdoc/doc/**"
-        ]
+          "rustdoc/doc/**",
+		  "tasks/diary/**"
+        ],
+		"exclude": [
+		  "tasks/**/*.tjp"
+		]
       }
     ],
     "dest": "_site",
