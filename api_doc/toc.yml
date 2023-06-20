@@ -1,10 +1,10 @@
-- name: Articles
-  href: articles/
+- name: 關於
+  href: rack_about/
 - name: Tasks
   href: tasks/
 - name: Rust API
-  href: RustApi/
-  homepage: RustApi/index.md
+  href: api_rust/
+  homepage: api_rust/index.md
 - name: CSharp API
-  href: api/
-  homepage: api/index.md
+  href: api_net7/
+  homepage: api_net7/index.md

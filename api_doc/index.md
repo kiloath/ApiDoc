@@ -1,1 +1,1 @@
-<meta http-equiv="refresh" content="0; url=articles/intro.html" />
+<meta http-equiv="refresh" content="0; url=rack_about/rack_about.html" />

@@ -9,9 +9,9 @@
           "src": "../"
         }
       ],
-      "dest": "api",
+      "dest": "api_net7",
       "includePrivateMembers": false,
-      "disableGitFeatures": false,
+      "disableGitFeatures": true,
       "disableDefaultFilter": false,
       "noRestore": false,
       "namespaceLayout": "flattened",
@@ -23,30 +23,14 @@
     "content": [
       {
         "files": [
-          "api/**.yml",
-          "api/index.md"
-        ]
-      },
-      {
-        "files": [
-          "RustApi/toc.yml",
-          "RustApi/index.md"
-        ]
-      },
-      {
-        "files": [
-          "articles/**.md",
-          "articles/**/toc.yml",
           "toc.yml",
-          "*.md"
-        ]
-      },
-	  {
-        "files": [
+          "index.md",
+          "rack_*/**/toc.yml",
+          "rack_*/**/*.md",
+          "api_*/**/*.yml",
+          "api_*/**/*.md",
           "tasks/**.md",
           "tasks/**/toc.yml",
-          "toc.yml",
-          "*.md"
         ]
       }
     ],
