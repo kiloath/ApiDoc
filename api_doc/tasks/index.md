@@ -7,7 +7,7 @@ _layout: landing
 <div class="containter">
   <div class="iframe-wrapper">
     <iframe class="iframe"
-            src="../../tasks/diary/index.html"
+            src="~/tasks/diary/index.html"
             title="tasks"
             frameborder="0"
             allow="encrypted-media"
