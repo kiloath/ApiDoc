@@ -4,3 +4,5 @@
   href: doc_spec.md
 - name: docfx安裝
   href: docfx_install.md
+- name: TaskJuggler安裝
+  href: taskjuggler_install.md
