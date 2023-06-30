@@ -6,5 +6,5 @@
   href: api_rust/
   homepage: api_rust/index.md
 - name: CSharp API
-  href: api_net7/
-  homepage: api_net7/index.md
+  href: api_dotnet/
+  homepage: api_dotnet/index.md

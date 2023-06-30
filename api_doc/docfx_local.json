@@ -4,12 +4,12 @@
       "src": [
         {
           "files": [
-            "net7/**/*.csproj"
+            "dotnet/**/*.csproj"
           ],
           "src": "../"
         }
       ],
-      "dest": "api_net7",
+      "dest": "api_dotnet",
       "includePrivateMembers": false,
       "disableGitFeatures": true,
       "disableDefaultFilter": false,
@@ -58,6 +58,6 @@
     ],
     "postProcessors": [],
     "keepFileLink": false,
-    "disableGitFeatures": false
+    "disableGitFeatures": true
   }
 }
