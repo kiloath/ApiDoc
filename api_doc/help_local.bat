@@ -12,5 +12,6 @@ REM 使用免安裝NET SDK時 /*
 :: SET PATH=D:\Portable\dotnet-sdk-8;%PATH%
 REM 使用免安裝NET SDK時 */
 docfx docfx_local.json
+del /S /F _site\*.js.map
 start _site\index.html
-PAUSE
+:: PAUSE
