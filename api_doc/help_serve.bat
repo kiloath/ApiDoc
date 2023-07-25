@@ -1,10 +1,12 @@
 @echo off
 rmdir /S /Q _site 2>nul
+rmdir /S /Q tasks\diary 2>nul
 rmdir /S /Q rustdoc 2>nul
 :: rmdir /S /Q obj 2>nul
 pushd .
+mkdir tasks\diary
 cd tasks/diary/
-cmd /c tj3 index.tjp
+cmd /c tj3 ../index.tjp
 popd
 cargo doc --manifest-path ../rust/Cargo.toml --target-dir rustdoc
 REM 使用免安裝NET SDK時 /*
