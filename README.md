@@ -16,6 +16,10 @@
 * 文件依KiloathDoc規格製作。
 * Markdown使用Visual Studio Code編輯。
 # {2!} 使用方法
+* 你想知道
+  * [怎麼安裝docfx](https://bloodcity.netlify.app/rack_about/docfx_install.html)
+  * 怎麼安裝rust
+  * 怎麼安裝TaskJuggler
 * 開始使用
   ```
   git clone --depth=1 --branch=main https://github.com/kiloath/ApiDoc.git MyProj

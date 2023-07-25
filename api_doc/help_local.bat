@@ -10,8 +10,8 @@ cmd /c tj3 ../index.tjp
 popd
 cargo doc --manifest-path ../rust/Cargo.toml --target-dir rustdoc
 REM 使用免安裝NET SDK時 /*
-:: SET DOTNET_ROOT=D:\Portable\dotnet-sdk-8\
-:: SET PATH=D:\Portable\dotnet-sdk-8;%PATH%
+SET DOTNET_ROOT=C:\net8sdk\
+SET PATH=C:\net8sdk\;%PATH%
 REM 使用免安裝NET SDK時 */
 docfx docfx_local.json
 del /S /F _site\*.js.map

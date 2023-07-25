@@ -9,10 +9,10 @@ cd tasks/diary/
 cmd /c tj3 ../index.tjp
 popd
 cargo doc --manifest-path ../rust/Cargo.toml --target-dir rustdoc
-REM ¨Ï¥Î§K¦w¸ËNET SDK®É /*
-:: SET DOTNET_ROOT=D:\Portable\dotnet-sdk-8\
-:: SET PATH=D:\Portable\dotnet-sdk-8;%PATH%
-REM ¨Ï¥Î§K¦w¸ËNET SDK®É */
+REM ä½¿ç”¨å…å®‰è£NET SDKæ™‚ /*
+SET DOTNET_ROOT=C:\net8sdk\
+SET PATH=C:\net8sdk\;%PATH%
+REM ä½¿ç”¨å…å®‰è£NET SDKæ™‚ */
 docfx docfx_server.json
 del /S /F _site\*.js.map >nul
 cmd /c start docfx serve _site

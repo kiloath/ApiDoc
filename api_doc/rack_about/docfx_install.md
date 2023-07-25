@@ -1,4 +1,20 @@
 # docfx安裝
+# {1!} 安裝.NET
+* [官方下載點](https://dotnet.microsoft.com/en-us/download)
+* 指令下載免安裝.NET 8 preview.6
+  ```
+  cd ~
+  rm dotnet-sdk-8.zip
+  curl.exe -o dotnet-sdk-8.zip -L https://download.visualstudio.microsoft.com/download/pr/0072b092-a2f3-4f94-9d74-ded4a9778ff8/ebee51c1135ac31bf746dff35d919216/dotnet-sdk-8.0.100-preview.6.23330.14-win-x64.zip
+  rmdir c:\net8sdk -r -fo
+  mkdir c:\net8sdk
+  tar -xvf dotnt-sdk-8.zip -C c:\net8sdk
+  ```
+* 設定windows terminal, 新增設定檔<mark>Net 8</mark>
+  ```
+  cmd /k "SET DOTNET_ROOT=C:\net8sdk\ && SET PATH=C:\net8sdk;%PATH% && C:\Progra~1\PowerShell\7\pwsh.exe -NoLogo -NoExit"
+  ```
+
 # {1!} 指令
 * 指令
   ```
