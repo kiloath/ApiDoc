@@ -8,7 +8,7 @@ mkdir tasks\diary
 cd tasks/diary/
 cmd /c tj3 ../index.tjp
 popd
-cargo doc --manifest-path ../rust/Cargo.toml --target-dir rustdoc
+cargo rustdoc --manifest-path ../rust/Cargo.toml --target-dir rustdoc
 REM 使用免安裝NET SDK時 /*
 SET DOTNET_ROOT=C:\net8sdk\
 SET PATH=C:\net8sdk\;%PATH%

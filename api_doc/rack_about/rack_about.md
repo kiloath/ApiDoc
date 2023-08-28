@@ -1,5 +1,6 @@
 # 關於
 # {1!} 目錄架構
+* [我在那裡?](https://github.com/kiloath/ApiDoc)
 ## {1.1!} 根目錄架構
   ```
   ApiDoc
